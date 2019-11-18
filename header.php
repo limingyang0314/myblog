@@ -7,6 +7,6 @@ echo '
 <div class="topnav">
     <a>主页</a>
     <a>详情</a>
-    <a>联系方式</a>
+    <a href="#DD" >联系方式</a>
 </div>
 ';

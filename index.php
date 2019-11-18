@@ -8,13 +8,15 @@ count($courseTable->rowTitle);
 <!DOCTYPE html>
 <html>
     <head>
-    <meta charset="utf-8"> 
-    <title>lmy的主页</title>
-
-    <link rel="stylesheet" href="/style.css" />
+        <meta charset="utf-8"> 
+        <title>lmy的主页</title>
+        <link rel="stylesheet" href="/style.css" />
     </head>
 
     <body>
+        <script>
+            $('#backUp').click(function () { $('html,body').animate({ scrollTop: '0px' }, 2000); return false; });
+        </script>
         <?php require_once("./header.php");?>
         <div class="row">
             <div class="leftcolumn">
@@ -26,8 +28,8 @@ count($courseTable->rowTitle);
                 <div class="card">
                 <h3>照骗墙</h3>
                 <div class="fakeimg"><img src="./imgs/pic1.jpg" width="100%" height="100%"></div>
-                <div class="fakeimg"><img src="./imgs/pic3.jpg" width="100%" height="100%"></div>
                 <div class="fakeimg"><img src="./imgs/pic4.jpg" width="100%" height="100%"></div>
+                <div class="fakeimg"><img src="./imgs/pic3.jpg" width="100%" height="100%"></div>
                 </div>
                 <div class="card">
                 <h3>关注我</h3>
@@ -47,8 +49,8 @@ count($courseTable->rowTitle);
                 <h2>从网上随便找的几张图片</h2>
                 <h5>2019 年 4 月 17日</h5>
                 <div class="fakeimg" style="height:600px;"><img src="./imgs/pic2.jpg" width="100%" height="100%"></div>
-                <p>简介</p>
-                <p>内容</p>
+                <p><b>简介:</b>这是一颗树</p>
+                <p>这是一颗很好看的树，不信你看，我将为这棵树写一篇200字的文章，敬请关注！</p>
                 </div>
             </div>
         </div>
