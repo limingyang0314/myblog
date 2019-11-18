@@ -16,16 +16,6 @@ count($courseTable->rowTitle);
 
     <body>
         <?php require_once("./header.php");?>
-        <!--<div class="row">
-            <div class="leftcolumn">
-
-            </div>
-            <div class="rightcolumn">
-                <!--<div class="classtable">
-                    <?php //$courseTable->showTable(); ?>
-                </div>
-            </div>
-        </div>-->
         <div class="row">
             <div class="leftcolumn">
                 <div class="card">
@@ -34,14 +24,14 @@ count($courseTable->rowTitle);
                 <p><b>简介：</b><br>毕业于天津大学，智能与计算学部软件工程专业，认真钻研，理性思考，是大家眼中的可靠同事。</p>
                 </div>
                 <div class="card">
-                <h3>热门文章</h3>
-                <div class="fakeimg"><p>图片</p></div>
-                <div class="fakeimg"><p>图片</p></div>
-                <div class="fakeimg"><p>图片</p></div>
+                <h3>照骗墙</h3>
+                <div class="fakeimg"><img src="./imgs/pic1.jpg" width="100%" height="100%"></div>
+                <div class="fakeimg"><img src="./imgs/pic3.jpg" width="100%" height="100%"></div>
+                <div class="fakeimg"><img src="./imgs/pic4.jpg" width="100%" height="100%"></div>
                 </div>
                 <div class="card">
                 <h3>关注我</h3>
-                <p>一些文本...</p>
+                <p>QQ：842047150</p>
                 </div>
             </div>
             <div class="rightcolumn">
@@ -54,11 +44,11 @@ count($courseTable->rowTitle);
                     </p>
                 </div>
                 <div class="card">
-                <h2>文章标题</h2>
+                <h2>从网上随便找的几张图片</h2>
                 <h5>2019 年 4 月 17日</h5>
-                <div class="fakeimg" style="height:200px;">图片</div>
-                <p>一些文本...</p>
-                <p>菜鸟教程 - 学的不仅是技术，更是梦想！菜鸟教程 - 学的不仅是技术，更是梦想！菜鸟教程 - 学的不仅是技术，更是梦想！菜鸟教程 - 学的不仅是技术，更是梦想！</p>
+                <div class="fakeimg" style="height:600px;"><img src="./imgs/pic2.jpg" width="100%" height="100%"></div>
+                <p>简介</p>
+                <p>内容</p>
                 </div>
             </div>
         </div>
