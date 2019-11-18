@@ -45,9 +45,12 @@ class ClassTable extends Func{
             foreach($this->columnTitle as $key => $value){
                 $course = $this->getOneCourse($key + 1, $i + 1);
                 if($course != null)
-                    echo '<td>' . $course->course_name . "<br>老师：". $course->teacher_name . '</td>';
+                    echo '<td>' . $course->course_name . 
+                    "<br>老师：". $course->teacher_name . 
+                    "<br>教室：". $course->classroom . 
+                    '</td>';
                 else 
-                    echo '<td>没课</td>';
+                    echo '<td>暂无</td>';
                ;
             }
             echo '</tr>';

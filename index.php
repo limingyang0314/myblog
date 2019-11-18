@@ -30,8 +30,8 @@ count($courseTable->rowTitle);
             <div class="leftcolumn">
                 <div class="card">
                 <h2>关于我</h2>
-                <div style="height:200px;"><img src="./imgs/myphoto.jpg" width="120" height="200"></div>
-                <p>关于我的一些信息..</p>
+                <div style="height:520px;"><img src="./imgs/myphoto.jpg" width="310" height="520"></div>
+                <p><b>简介：</b><br>毕业于天津大学，智能与计算学部软件工程专业，认真钻研，理性思考，是大家眼中的可靠同事。</p>
                 </div>
                 <div class="card">
                 <h3>热门文章</h3>
@@ -46,7 +46,7 @@ count($courseTable->rowTitle);
             </div>
             <div class="rightcolumn">
             <div class="card">
-                    <h2 style="text-align: center;">课表</h2>
+                    <h2 style="text-align: center;">2017级软件工程2019-2020年度第一学期课表</h2>
                     <h5 style="text-align: center;">2019 年 11 月 18日</h5>
                     <p>这是我的课表</p>
                     <p style="text-align: center;">

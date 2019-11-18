@@ -37,11 +37,11 @@ table.hovertable td {
 }
 
 div#header,div#footer {
-	padding: 20px;
+	padding: 50px;
 	text-align: center;
 	color:white;
 	background-color:#444;
-	margin-bottom:5px;
+	margin-bottom:1px;
 }
 
 * {
