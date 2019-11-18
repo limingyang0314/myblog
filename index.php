@@ -32,8 +32,10 @@ count($courseTable->rowTitle);
                 <div class="fakeimg"><img src="./imgs/pic3.jpg" width="100%" height="100%"></div>
                 </div>
                 <div class="card">
-                <h3>关注我</h3>
+                <h3>联系方式</h3>
                 <p>QQ：842047150</p>
+                <p>phone：15522001234</p>
+                <p>email：842047150@qq.com</p>
                 </div>
             </div>
             <div class="rightcolumn">
