@@ -1,9 +1,9 @@
 table, td, th{
-	border:1px solid #444;
+	border:1px solid rgb(104, 129, 117);
 }
 
 th{
-	background-color:#444;
+	background-color:rgb(96, 134, 117);
 	color:white;
 }
 
@@ -12,16 +12,16 @@ table.hovertable {
 	font-size:11px;
 	color:#333333;
 	border-width: 1px;
-	border-color: #999999;
+	border-color: #637768;
 	border-collapse: collapse;
 }
 
 table.hovertable th {
-	background-color:#444;
+	background-color:rgb(57, 73, 59);
 	border-width: 1px;
 	padding: 8px;
 	border-style: solid;
-	border-color: #e8f6f7;
+	border-color: #e8f7f0;
 }
 
 table.hovertable tr {
@@ -29,11 +29,12 @@ table.hovertable tr {
 }
 
 table.hovertable td {
+	background-color:#73807a;
 	text-align: center;
 	border-width: 1px;
 	padding: 8px;
 	border-style: solid;
-	border-color: #a3abac;
+	border-color: #a3aca6;
 }
 
 div#header {
@@ -47,11 +48,11 @@ div#header {
 }
 
 div#footer {
-	padding: 10px;
+	padding: 1px;
 	text-align: center;
 	
 	color:white;
-	background-color:#444;
+	background-color:rgb(35, 53, 35);
 	margin-bottom:1px;
 }
 
@@ -79,7 +80,7 @@ font-size: 50px;
 /* 导航条 */
 .topnav {
 overflow: hidden;
-background-color: #333;
+background-color: rgb(35, 53, 35);
 }
 
 /* 导航条链接 */
@@ -94,7 +95,7 @@ text-decoration: none;
 
 /* 链接颜色修改 */
 .topnav a:hover {
-background-color: #ddd;
+background-color: rgb(67, 95, 70);
 color: black;
 }
 
@@ -115,7 +116,7 @@ padding-left: 20px;
 
 /* 图像部分 */
 .fakeimg {
-background-color: #aaa;
+background-color: rgb(85, 109, 103);
 width: 100%;
 padding: 10px;
 border:1px solid rgb(201, 199, 199);
